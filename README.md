@@ -1,61 +1,38 @@
-# 🚀 Getting started with Strapi
+Of course, here is the second piece of text with Markdown styling:
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+# Aiden's Portfolio - Backend (Strapi CMS)
 
-### `develop`
+This repository contains the source code for the backend of my personal portfolio and blog. It is built using Strapi, an open-source headless CMS.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+This application provides a user-friendly admin panel to manage blog posts and serves the content via a REST API to the React frontend.
 
-```
-npm run develop
-# or
-yarn develop
-```
+### Tech Stack
 
-### `start`
+  * **CMS:** Strapi
+  * **Database:** PostgreSQL (for production), SQLite (for local development)
+  * **Deployment:** Render
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+### Running Locally
 
-```
-npm run start
-# or
-yarn start
-```
+To run this project on your local machine, follow these steps:
 
-### `build`
+1.  **Clone the repository:**
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+    ```sh
+    git clone https://github.com/Aiden-10/aiden-portfolio-backend.git
+    cd aiden-portfolio-backend
+    ```
 
-```
-npm run build
-# or
-yarn build
-```
+2.  **Install dependencies:**
 
-## ⚙️ Deployment
+    ```sh
+    npm install
+    ```
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+3.  **Run the development server:**
 
-```
-yarn strapi deploy
-```
+    ```sh
+    npm run develop
+    ```
 
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+The Strapi admin panel will be available at `http://localhost:1337/admin`.
