@@ -1,5 +1,3 @@
-Of course, here is the second piece of text with Markdown styling:
-
 # Aiden's Portfolio - Backend (Strapi CMS)
 
 This repository contains the source code for the backend of my personal portfolio and blog. It is built using Strapi, an open-source headless CMS.
